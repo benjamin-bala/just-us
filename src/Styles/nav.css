@@ -1,0 +1,23 @@
+.nav{
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.6rem;
+    height: 100vh;
+    background-color: #202020;
+    padding: 0rem 5rem;
+    color: #eaeaea;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0rem 1rem;
+}
+.show{
+    display: none;
+}
+.icon-text{
+    margin-left: 1rem;
+}

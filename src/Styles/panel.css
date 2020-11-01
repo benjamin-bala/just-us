@@ -1,0 +1,43 @@
+.panel{
+    padding: 1.5rem 1.5rem;
+    height: 100vh;
+    background-color: #111010;
+    font-size: 1.8rem;
+    overflow-y: scroll;
+}
+.favourite,.directMessage,.channels{
+    display: flex;
+    flex-direction: column;
+}
+.favourite__header,.directMessage__header,.channels__header{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.directMessage__container{
+    overflow-y: scroll;
+}
+.favourite__header h2,.directMessage__header h2,.channels__header h2{
+    /* text-transform: capitalize; */
+}
+.favourite__channel__container,.directMessage__container,.channels__container{
+    display: flex;
+    flex-direction: column;
+}
+.favourite__channel,.directMessage__profile,.channel{
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+}
+.favourite__channel p,.directMessage__profile p,.channel p{
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+.active__channel,.active__message{
+    background-color: #333;
+    border-radius: 1rem;
+    color: #eaeaea;
+}

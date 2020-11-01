@@ -1,0 +1,31 @@
+.reply{
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 0.05rem solid #555;
+    margin: 1rem 0rem;
+    padding: 1rem 0rem;
+}
+.reply__icon{
+    font-size: 60px;
+    color: #fafafa;
+}
+.reply__message{
+    font-size: 2rem;
+    margin-left: 1.6rem;
+    color: #fafafa;
+}
+.reply__message__header{
+    display: flex;
+    align-items: center;
+}
+.reply__message__header h3{
+    font-weight: 500;
+}
+.reply__message__header p{
+    margin-left: 1rem;
+    color: #aaa;
+}
+.reply__message p{
+    line-height: 1.2;
+    font-weight: 100;
+}
